@@ -1,0 +1,399 @@
+body,h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+/*Header-Top Section*/
+.header-left span {
+	background: #6278df;
+	color: #fff;
+	width: 46px;
+	height: 50px;
+	display: inline-block;
+	font-size: 30px;
+	border-radius: 10px;
+	text-align: center;
+	position: relative;
+	top: 0px;
+	left: -5px;
+}
+.header-left {
+	font-size: 27px;
+}
+.menu {
+	margin-right: 252px;
+	margin-top: 16px;
+	margin-left: 44px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #111;
+    padding: 0px 20px;
+    display: block;
+}
+/*Drowp down*/
+.menu ul li{
+    
+    position: relative;
+}
+.menu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 250px;
+    background: #fff;
+	display: block;
+	opacity: 0;
+	visibility: hidden;
+}
+
+
+
+.menu ul li:hover ul{
+	opacity: 1;
+	visibility: visible;
+	color: #6278df;
+
+}
+
+.menu ul li ul li {
+	padding: 15px 0px;
+	margin-left: -31px;
+	display: inline-block;
+	width: 250px;
+	border-bottom: 1px solid#999;
+	color: #999;
+	
+}	
+.menu ul li ul li:hover a{
+	color: #6278df;
+}
+.header-top-btn {
+	color: #6278df;
+	font-weight: 500;
+	font-size: 15px;
+	padding: 6px 30px;
+	border: 2px solid;
+}
+.header-top-btn:hover {
+    background: #6278df;
+    color: #fff;
+
+    border: 2px solid #6278df;
+}
+/*Slider Section*/
+.slider-section{
+    background: url(./images/amazing-animal-beautiful-beautifull.jpg) no-repeat center center;
+    padding: 200px 0px;
+   background-size: cover;
+}
+.slider-text h5 {
+	color: #fff;
+	padding: 23px 0px;
+	font-weight: 300;
+	font-size: 28px;
+}
+
+.slider-text h2 {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+	padding-top: 10px;
+}
+.slider-button-section .slider-button {
+
+	background: #5ba533;
+	border: 1px solid #5ba533;
+	font-weight: bold;
+	padding: 13px 67px;
+}
+.slider-button-section .slider-submit {
+	padding: 13px 30px;
+	
+}
+.slider-button-section:hover .slider-button {
+	background: #fff;
+	color: #6278df;
+	box-shadow: 3px 4px 1px 0 rgba(98, 120, 223, .7);
+}
+
+/*Rating Section*/
+.rating h3 {
+	font-size: 47px;
+}
+.rating p {
+	font-size: 20px;
+	font-weight: 300;
+}
+.feature{
+	background: #f7f9ff;
+	
+}
+.feature-left{
+	padding-top: 100px;
+
+}
+.feature-left h1 {
+	
+	font-size: 40px;
+	font-weight: 500;
+	padding-bottom: 10px;
+}
+.feature-left p {
+	font-size: 18px;
+	padding-top: 5px;
+}
+.learn-section h2 {
+	font-size: 40px;
+	font-weight: 400;
+	padding-top: 17px;
+}
+.learn-section p {
+	font-size: 25px;
+	font-weight: 200;
+	padding-top: 14px;
+}
+/*Feature Section*/
+.feature-section-content{
+	height: 300px;
+	align-items: center;
+	box-shadow: 3px 4px 3px 0 rgba(98, 120, 223, .2);
+}
+.feature-section-img {
+	width: 40%;
+	overflow: hidden;
+	border-radius: 5px 0px 0px 5px;
+}
+.feature-section-text {
+	width: 60%;
+	padding-left: 26px;
+}
+.feature-section-img img {
+	
+	height: 100%;
+	width: auto;
+	max-width: inherit;
+	position: relative;
+	top: 0;
+	left: -34px;
+}
+.look h2{
+	font-size: 50px;
+	font-weight: 400;
+}
+/*Testimonial*/
+.testimonial-img a{
+	position: relative;
+	display: block;
+
+}
+.testimonial-img a::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(98, 120, 223, .5);
+	opacity: 0;
+	visibility: hidden;
+	transition: .4s;
+}
+.testimonial-img:hover a::after{
+	visibility: visible;
+	opacity: 1;
+
+}
+/*Portfolio Section*/
+.portfolio-section-top h1{
+	font-size: 60px;
+	font-weight: 500;
+
+}
+.portfolio-section-top p{
+	font-size: 25px;
+	font-weight: 300;
+}
+.fortfolio-item-content {
+	box-shadow: 3px 4px 20px 0 rgba(98, 120, 223, .1);
+	padding: 50px 10px;
+}
+.fortfolio-item-content:hover .btn {
+	background: #6278df;
+	color: #fff;
+
+}
+
+.fortfolio-item-content h2 {
+	font-size: 46px;
+	font-weight: 500;
+	padding-left: 23px;
+}
+.fortfolio-item-content p {
+	font-size: 28px;
+	font-weight: 200;
+	padding-left: 18px;
+	padding-top: 10px;
+	padding-bottom: 12px;
+}
+.fortfolio-item-content ul{}
+.fortfolio-item-content ul li {
+	list-style: none;
+	font-size: 21px;
+	line-height: 50px;
+	font-weight: 300;
+}
+.fortfolio-item-content ul li span {
+	font-size: 30px;
+	color: #6278df;
+	padding-right: 18px;
+	padding-left: 0;
+	font-weight: 600;
+}
+.portfolio-top-btn {
+	color: #6278df;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 10px 70px;
+	border: 2px solid;
+	margin-left: 22px;
+}
+.btn:hover .portfolio-top-btn{
+    background: #000;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.content-section-center{
+	width: 300px;
+	margin: auto;
+	padding: 30px 0px;
+}
+.content-section-left{
+	float: left;
+}
+.content-section-left img {
+	max-width: 100%;
+	width: 70px;
+	margin-left: 47px;
+}
+.content-section-right {
+	padding-top: 15px;
+	margin-right: 40px;
+}
+.content-section-right h4 {
+	font-size: 20px;
+	font-weight: 400;
+
+}
+.content-section h5 {
+	font-weight: 300;
+	font-size: 26px;
+	padding-bottom: 12px;
+}
+.content-section h2 {
+	font-weight: 400;
+	font-size: 43px;
+	padding-bottom: 0px;
+}
+.content-section span {
+	font-size: 110px;
+	color: #999;
+}
+.content-section p {
+	font-size: 20px;
+	padding: 0px 150px;
+	font-weight: 300;
+}
+/*Testimonial Part*/
+.bg-color{
+	background: #f7f9ff;
+}
+.testimonial-left h4 {
+	font-size: 42px;
+	padding-bottom: 30px;
+}
+.testimonial-left p {
+	font-size: 20px;
+	font-weight: 200;
+}
+.testimonial-right p {
+	font-size: 19px;
+	font-weight: 200;
+	padding-top: 88px;
+}
+/*Galary Section*/
+
+.galary-content {
+	background: #fff;
+	padding-top: 45px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	position: relative;
+
+}
+.galary-content img {
+	width: 124px;
+	border-radius: 50%;
+	position: absolute;
+	top: -69px;
+	left: 13px;
+}
+.galary-content h4 {
+	font-size: 25px;
+	padding-top: 30px;
+}
+.galary-content h3 {
+	font-size: 30px;
+	font-weight: 400;
+	padding-bottom: 14px;
+}
+.galary-content p {
+	font-weight: 200;
+	
+}
+.galary-content .btn{
+	box-shadow: 3px 4px 20px 0 rgba(98, 120, 223, .2);
+	
+
+}
+.galary-content a{
+	transition: .4s;
+}
+.galary-content .btn:hover{
+	background: #465052;
+	color: #fff;
+}
+.contact-section p {
+	font-size: 25px;
+	font-weight: 200;
+}
+.form-content{
+	width: 100%;
+}
+.contact-section h4 {
+	font-size: 32px;
+	font-weight: 400;
+	padding-bottom: 35px;
+}
+/*form section*/
+.form-content .card{
+	padding: 40px;
+}
+.footer{
+	background: #f7f9ff;
+}
+.footer-bottom h6 {
+	font-size: 24px;
+	font-weight: 300;
+	padding-top: 5px;
+}
+
+
+
